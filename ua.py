@@ -6,21 +6,21 @@ def list():
     users_agents = """
 If you've gotten this far, it's because you don't know the user-agents available, so here's a list of all of them:
 
-Windows: windows = web_browser.user_agent('windows')
+Windows: windows = ua.user_agents('windows')
 print(windows[0])
 print(windows[1])
 print(windows[2])
 
-Mac Os: web_browser.user_agent('mac_os')
+Mac Os: ua.user_agents('mac_os')
 
-Linux: web_browser.user_agent('linux')
+Linux: ua.user_agents('linux')
 
-Iphone: web_browser.user_agent('iphone')
+Iphone: ua.user_agents('iphone')
 
-Ipad: web_browser.user_agent('ipad')
+Ipad: ua.user_agents('ipad')
 
-Ipod: web_browser.user_agent('ipod')
-Android: android = web_browser.user_agent('android')
+Ipod: ua.user_agents('ipod')
+Android: android = ua.user_agents('android')
 print(android[0])
 print(android[1])
 print(android[2])
